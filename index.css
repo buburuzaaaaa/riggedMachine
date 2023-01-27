@@ -1,0 +1,7 @@
+#nix:hover{
+background-color: azure;
+}
+#nix:active{
+    box-shadow: 0 5px rgb(125, 113, 113);
+    transform: translateY(4px);
+}
