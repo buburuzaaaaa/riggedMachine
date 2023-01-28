@@ -15,7 +15,23 @@ for(let i = 0; i <1; i++){
 function testing(){
 alert("Success!")   
 }
-function testing2(){
+ function testing2(){
+let rig = prompt(" are you sure you want to vote for Mcgovern?")
+    if(rig == "yes"){
+        alert(' could not register vote')
+    }else{
+        for(let i = 0; i < 1; i++){
+let error= document.createElement('button')
+error.textContent = "ERROR"
+error.style = "color: red; font-size: 50px;"
+error.id= "eror"+i
+main.appendChild(error)
+        }
 
-    
+
+
+
+
+   //alert('voted for Nixon')
+    }
 }
