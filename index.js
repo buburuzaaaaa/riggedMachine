@@ -18,20 +18,17 @@ alert("Success!")
  function testing2(){
 let rig = prompt(" are you sure you want to vote for Mcgovern?")
     if(rig == "yes"){
-        alert(' could not register vote')
-    }else{
-        for(let i = 0; i < 1; i++){
+        for(let i = 0; i < 9; i++){
 let error= document.createElement('button')
-error.textContent = "ERROR"
-error.style = "color: red; font-size: 50px;"
-error.id= "eror"+i
-main.appendChild(error)
-        }
-
-
-
-
-
+error.textContent = "ERROR PROCESSING VOTE "
+error.style = "color: red; font-size: 50px; background-color: black; display:flex; justify-content: center; margin: 0px;"
+error.id= "eror"
+document.body.style = "text-align: centerl; "
+let errorContainer = document.createElement('div')
+errorContainer.style = "display: flex; justify-content: space-around";
+document.body.appendChild(errorContainer)
+errorContainer.appendChild(error)
+    }
    //alert('voted for Nixon')
     }
 }

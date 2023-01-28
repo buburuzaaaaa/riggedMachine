@@ -15,17 +15,23 @@ background-color: azure;
     display:flex;
     flex-direction:column;
     width: 361px;
-     height: 250px;
+     height: 230px;
 }
 img{
     width: 361px;
     height: 250px
 }
-body{
-    background-color: rgb(79, 127, 182);
-}
+
 #all{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
 }
+button{
+    justify-content: space-around;
+}
+*{
+    background-color: rgb(18, 117, 193);
+    cursor: url('./FRSlMUUXsAAmilL.png'), pointer;
+}
+
